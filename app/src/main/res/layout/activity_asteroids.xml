@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/graphics_frameLayout1"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:id="@+id/HUD"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/derecha" />
+    </LinearLayout>
+
+    <eu.elraro.asteroids.AsteroidsView
+        android:id="@+id/graphics_glsurfaceview1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </eu.elraro.asteroids.AsteroidsView>
+</FrameLayout>

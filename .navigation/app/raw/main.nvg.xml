@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "eu.elraro.asteroids.MenuPrincipal"/>
+      <point      
+        x = "1708"      
+        y = "232"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "eu.elraro.asteroids.Preferencias"/>
+      <point      
+        x = "2736"      
+        y = "212"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "eu.elraro.asteroids.Asteroids"/>
+      <point      
+        x = "1672"      
+        y = "1784"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "eu.elraro.asteroids.RankingActivity"/>
+      <point      
+        x = "660"      
+        y = "236"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

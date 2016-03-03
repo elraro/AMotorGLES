@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="nombre"
+        android:defaultValue="Jugador"
+        android:summary="Por favor escribe tu nombre"
+        android:title="Tu nombre"></EditTextPreference>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+        android:key="dificultad"
+        android:summary="Selecciona la dificultad"
+        android:title="Dificultad" />
+</PreferenceScreen>
